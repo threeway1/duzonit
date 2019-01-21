@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
 
 @mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
 	-webkit-transition-property: $property;
@@ -17,6 +18,9 @@
 }
 @mixin msr() {
     font-family: 'Montserrat', sans-serif;
+}
+@mixin pt() {
+    font-family: 'PT Sans', sans-serif;
 }
 
 $kcolor: #03479c;

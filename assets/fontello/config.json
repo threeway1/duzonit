@@ -53,6 +53,12 @@
       "css": "home",
       "code": 59397,
       "src": "entypo"
+    },
+    {
+      "uid": "b714be5a812a474811604f700dfc87ce",
+      "css": "left-open-1",
+      "code": 61447,
+      "src": "mfglabs"
     }
   ]
 }
