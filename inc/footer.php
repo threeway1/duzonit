@@ -3,10 +3,10 @@
     <div class="terms">
         <div class="container">
             <ul>
-                <li><a href="#">개인정보취급방침</a></li>
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#">자주묻는질문</a></li>
-                <li><a href="#">사이트맵</a></li>
+                <li><a href="/other/privacy.php">개인정보취급방침</a></li>
+                <li><a href="/other/terms.php">이용약관</a></li>
+                <li><a href="/other/qna.php">자주묻는질문</a></li>
+                <li><a href="/other/site_map.php">사이트맵</a></li>
             </ul>
         </div>
     </div>

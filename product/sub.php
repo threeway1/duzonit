@@ -59,37 +59,40 @@
         <nav class="tab-menu">
             <div class="container">
                 <ul>
-                    <li><a href="/product/business_icube.php">기업용 iCUBE</a></li>
+                    <li class="active"><a href="/product/business_icube.php">기업용 iCUBE</a></li>
                     <li><a href="/product/icube_g20.php">비영리용 iCUBE-20</a></li>
                     <li><a href="/product/build_icube.php">건설기업용 iCUBE-20</a></li>
                     <li><a href="/product/erp_iu.php">ERP iU</a></li>
                     <li><a href="/product/mes_pop.php">MES/POP</a></li>
                     <li><a href="/product/scm.php">SCM</a></li>
                     <li><a href="/product/barcode.php">BARCODE</a></li>
-                    <li class="active"><a href="/product/sfa.php">SFA</a></li>
+                    <li><a href="/product/sfa.php">SFA</a></li>
                 </ul>
             </div>
         </nav>
         
         <div class="container">
             <div class="section-header">
-                <h3>SFA (모바일 영업관리)</h3>
+                <h3>기업용 iCUBE</h3>
             </div>
-            <article class="sfa">
+            <article class="">
                 <div class="article-header">
                     <div class="row">
                         <div class="col-6">
                             <figure>
-                                <img src="/comm/images/product/img_sfa_top.jpg" class="img-fluid" alt="">
+                                <img src="/comm/images/product/" class="img-fluid" alt="">
                             </figure>
                         </div>
                         <div class="col-6">
                             <div class="page-summary">
-                                <h4 class="page-title">모바일 영업관리 <span class="msr">SFA</span></h4>
-                                <p class="summarize">표준 iCUBE-SFA를 통한 <b>효율적인 영업관리 지원</b></p>
+                                <h4 class="page-title"> <span class="msr"></span></h4>
+                                <p class="summarize"></p>
                                 <hr>
                                 <ul class="dashed-list blue long">
-                                    <li>더존의 모바일 영업관리 솔루션인  표준 iCube-SFA를 통해 효율적 영업관리를 지원합니다.</li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
@@ -97,30 +100,66 @@
                 </div>
                 <div class="article-content">
                    
-                    <div class="block-diagram">
+                    <div class="">
                         <div class="strapline">
                             <h4>구성도</h4>
                         </div>
                         <div class="details">
-                            <h5 class="sub-title">Mobile Main</h5>
-                            <figure>
-                                <img src="/comm/images/product/img_sfa_block_diagram_mobile.jpg" alt="">
-                            </figure>
-                            <h5 class="sub-title">iCUBE Main</h5>
-                            <figure>
-                                <img src="/comm/images/product/img_sfa_block_diagram_icube.jpg" alt="">
-                            </figure>
+                            
                         </div>
                     </div>
                     
-                    <div class="important-screen">
+                    <div class="">
                         <div class="strapline">
-                            <h4>주요화면</h4>
+                            <h4>구성도</h4>
                         </div>
                         <div class="details">
-                            <figure>
-                                <img src="/comm/images/product/img_important_screen.jpg" alt="">
-                            </figure>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="strapline">
+                            <h4>구성도</h4>
+                        </div>
+                        <div class="details">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="strapline">
+                            <h4>구성도</h4>
+                        </div>
+                        <div class="details">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="strapline">
+                            <h4>구성도</h4>
+                        </div>
+                        <div class="details">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="strapline">
+                            <h4>구성도</h4>
+                        </div>
+                        <div class="details">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                        <div class="strapline">
+                            <h4>구성도</h4>
+                        </div>
+                        <div class="details">
+                            
                         </div>
                     </div>
                     

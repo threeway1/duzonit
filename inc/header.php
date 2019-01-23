@@ -9,7 +9,7 @@
             </h1>
             <ul class="quick-link">
                 <li><a href="/">홈으로</a></li>
-                <li><a href="#">사이트맵</a></li>
+                <li><a href="/other/site_map.php">사이트맵</a></li>
             </ul>
         </div>
     </div>

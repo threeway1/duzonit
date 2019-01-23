@@ -2,7 +2,7 @@
 
 #content {
     word-break: keep-all;
-    min-height: 800px;
+    padding-bottom: 120px;
 }
 
 .page-header {
@@ -173,9 +173,6 @@
     }
 }
 
-section {
-    padding-bottom: 120px;
-}
 .section-header {
     padding: 40px 0;
     text-align: center;
@@ -272,6 +269,7 @@ section {
     }
     &.blue {
         > li {
+            padding-left: 15px;
             &:before {
                 width: 7px;
                 background-color: #03479c;
@@ -414,9 +412,13 @@ section {
             content: '0' counter(my-list-index);
             background-color: #1e447d;
         }
+        &:nth-of-type(9) ~ li {
+            &:before {
+                content: counter(my-list-index);
+            }
+        }
     }
 }
-
 
 
 

@@ -181,7 +181,7 @@ a {
 
 #content {
   word-break: keep-all;
-  min-height: 800px; }
+  padding-bottom: 120px; }
 
 .page-header {
   width: 100%;
@@ -328,9 +328,6 @@ a {
       .tab-menu ul li:nth-of-type(4) ~ li {
         border-top: 0; }
 
-section {
-  padding-bottom: 120px; }
-
 .section-header {
   padding: 40px 0;
   text-align: center; }
@@ -413,9 +410,11 @@ section {
     .dashed-list.long > li {
       float: none;
       width: 100%; }
-  .dashed-list.blue > li:before {
-    width: 7px;
-    background-color: #03479c; }
+  .dashed-list.blue > li {
+    padding-left: 15px; }
+    .dashed-list.blue > li:before {
+      width: 7px;
+      background-color: #03479c; }
 
 .square-list > li {
   position: relative;
@@ -522,5 +521,7 @@ section {
       font-family: 'PT Sans', sans-serif;
       content: "0" counter(my-list-index);
       background-color: #1e447d; }
+    .decimal-list > li:nth-of-type(9) ~ li:before {
+      content: counter(my-list-index); }
 
 /*# sourceMappingURL=sub.css.map */
