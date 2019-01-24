@@ -327,6 +327,16 @@ a {
         clear: left; }
       .tab-menu ul li:nth-of-type(4) ~ li {
         border-top: 0; }
+  .tab-menu.type-2 ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed; }
+    .tab-menu.type-2 ul > li {
+      display: table-cell;
+      width: 1%;
+      float: none; }
+      .tab-menu.type-2 ul > li:last-child {
+        border-right: 1px solid #ddd; }
 
 .section-header {
   padding: 40px 0;
@@ -523,5 +533,8 @@ a {
       background-color: #1e447d; }
     .decimal-list > li:nth-of-type(9) ~ li:before {
       content: counter(my-list-index); }
+  .decimal-list.long > li {
+    float: none;
+    width: 100%; }
 
 /*# sourceMappingURL=sub.css.map */

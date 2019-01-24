@@ -185,6 +185,9 @@ a {
 
 .page-summary .msr {
   font-family: 'Montserrat', sans-serif; }
+.page-summary .noto {
+  font-size: 62px;
+  font-family: 'Noto Sans KR', sans-serif; }
 .page-summary .page-title {
   font-size: 52px;
   color: #333;
@@ -1076,5 +1079,431 @@ a {
 .sfa .article-content .important-screen figure {
   padding: 70px 0 50px;
   background-color: #f0f0f0; }
+
+.bizbox .article-header .page-summary {
+  padding-top: 40px; }
+  .bizbox .article-header .page-summary .dashed-list li {
+    line-height: 30px;
+    margin-top: 0 !important; }
+.bizbox .article-header .bizbox-list {
+  overflow: hidden;
+  margin-top: 50px; }
+  .bizbox .article-header .bizbox-list li {
+    float: left;
+    width: 580px;
+    height: 720px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 65px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0; }
+    .bizbox .article-header .bizbox-list li:nth-of-type(2n + 1) {
+      margin-right: 10px; }
+    .bizbox .article-header .bizbox-list li:nth-of-type(1) {
+      border-top: 7px solid #01b0eb; }
+      .bizbox .article-header .bizbox-list li:nth-of-type(1) strong {
+        color: #01b0eb; }
+    .bizbox .article-header .bizbox-list li:nth-of-type(2) {
+      border-top: 7px solid #f2652a; }
+      .bizbox .article-header .bizbox-list li:nth-of-type(2) strong {
+        color: #f2652a; }
+    .bizbox .article-header .bizbox-list li:nth-of-type(3) {
+      height: 810px;
+      border-top: 7px solid #842287; }
+      .bizbox .article-header .bizbox-list li:nth-of-type(3) strong {
+        color: #842287; }
+      .bizbox .article-header .bizbox-list li:nth-of-type(3) figure {
+        margin-top: 60px; }
+    .bizbox .article-header .bizbox-list li:nth-of-type(4) {
+      height: 810px;
+      border-top: 7px solid #3e9a3c; }
+      .bizbox .article-header .bizbox-list li:nth-of-type(4) strong {
+        color: #3e9a3c; }
+      .bizbox .article-header .bizbox-list li:nth-of-type(4) figure {
+        margin-top: 20px; }
+    .bizbox .article-header .bizbox-list li h5 {
+      font-size: 36px;
+      color: #333;
+      font-weight: 400;
+      letter-spacing: -.5px; }
+      .bizbox .article-header .bizbox-list li h5 strong {
+        font-weight: bolder; }
+    .bizbox .article-header .bizbox-list li p {
+      font-size: 17px;
+      color: #666;
+      margin-top: 40px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: -.5px; }
+    .bizbox .article-header .bizbox-list li figure {
+      margin-top: 40px; }
+      .bizbox .article-header .bizbox-list li figure img {
+        display: block;
+        margin: 0 auto; }
+.bizbox .article-header .profit-public {
+  text-align: center;
+  margin-top: 10px;
+  padding: 40px;
+  background-color: #f0f0f0; }
+  .bizbox .article-header .profit-public h5 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    background-color: #03479c; }
+  .bizbox .article-header .profit-public .table-wrap {
+    background-color: #fff; }
+    .bizbox .article-header .profit-public .table-wrap .table tbody tr th {
+      height: 50px;
+      font-size: 18px;
+      color: #333;
+      font-weight: 400;
+      letter-spacing: -.5px;
+      border: 0;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px dotted #d4d4d4;
+      vertical-align: middle; }
+      .bizbox .article-header .profit-public .table-wrap .table tbody tr th img {
+        position: relative;
+        top: 4px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5px; }
+      .bizbox .article-header .profit-public .table-wrap .table tbody tr th:last-child {
+        border-right: 0; }
+    .bizbox .article-header .profit-public .table-wrap .table tbody tr td {
+      height: 120px;
+      padding: 20px;
+      text-align: left;
+      vertical-align: top;
+      border: 0;
+      border-right: 1px solid #ddd;
+      border-bottom: 1px solid #ddd; }
+      .bizbox .article-header .profit-public .table-wrap .table tbody tr td:last-child {
+        border-right: 0; }
+    .bizbox .article-header .profit-public .table-wrap .table tbody tr:last-child td {
+      border-bottom: 0; }
+  .bizbox .article-header .profit-public .attention {
+    font-size: 22px;
+    color: #333;
+    font-weight: 500;
+    margin-top: 30px;
+    letter-spacing: -.5px; }
+    .bizbox .article-header .profit-public .attention span {
+      color: #01b0eb; }
+  .bizbox .article-header .profit-public small {
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    display: block;
+    margin-top: 5px;
+    letter-spacing: -.5px; }
+.bizbox .article-content .caption {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 60px;
+  background: #0291d3;
+  background: -moz-linear-gradient(left, #0291d3 0%, #026bb7 50%, #03479c 100%);
+  background: -webkit-linear-gradient(left, #0291d3 0%, #026bb7 50%, #03479c 100%);
+  background: linear-gradient(to right, #0291d3 0%, #026bb7 50%, #03479c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0291d3', endColorstr='#03479c',GradientType=1 ); }
+.bizbox .article-content .utilization-plan {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+  .bizbox .article-content .utilization-plan dl dd {
+    margin-top: 10px; }
+    .bizbox .article-content .utilization-plan dl dd > ul {
+      overflow: hidden; }
+      .bizbox .article-content .utilization-plan dl dd > ul > li {
+        float: left;
+        width: 530px;
+        padding: 20px;
+        margin-right: 10px;
+        border: 10px solid #e4edf6; }
+        .bizbox .article-content .utilization-plan dl dd > ul > li:last-child {
+          margin-right: 0;
+          border-color: #ededed; }
+.bizbox .article-content .block-diagram .details {
+  overflow: hidden;
+  padding: 40px;
+  background-color: #f0f0f0; }
+  .bizbox .article-content .block-diagram .details > ul {
+    float: left;
+    margin-right: 35px; }
+    .bizbox .article-content .block-diagram .details > ul > li > dl > dt {
+      font-size: 18px;
+      letter-spacing: -.5px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 60px;
+      text-align: center;
+      background-color: #4f5963; }
+      .bizbox .article-content .block-diagram .details > ul > li > dl > dt img {
+        position: relative;
+        top: -1px;
+        display: inline-block;
+        margin-right: 5px; }
+    .bizbox .article-content .block-diagram .details > ul > li > dl > dd {
+      padding: 25px 10px;
+      background-color: #fff; }
+    .bizbox .article-content .block-diagram .details > ul.left-list, .bizbox .article-content .block-diagram .details > ul.right-list {
+      width: 194px; }
+      .bizbox .article-content .block-diagram .details > ul.left-list > li, .bizbox .article-content .block-diagram .details > ul.right-list > li {
+        display: block; }
+        .bizbox .article-content .block-diagram .details > ul.left-list > li:first-child > dl dt, .bizbox .article-content .block-diagram .details > ul.right-list > li:first-child > dl dt {
+          background-color: #01b0eb; }
+        .bizbox .article-content .block-diagram .details > ul.left-list > li:last-child, .bizbox .article-content .block-diagram .details > ul.right-list > li:last-child {
+          margin-top: 24px; }
+          .bizbox .article-content .block-diagram .details > ul.left-list > li:last-child > dl dt, .bizbox .article-content .block-diagram .details > ul.right-list > li:last-child > dl dt {
+            background-color: #144199; }
+        .bizbox .article-content .block-diagram .details > ul.left-list > li > dl > dd > ul > li, .bizbox .article-content .block-diagram .details > ul.right-list > li > dl > dd > ul > li {
+          font-size: 15px;
+          color: #666;
+          font-weight: 400;
+          display: block;
+          line-height: 45px;
+          text-align: center;
+          border: 1px solid #ccc; }
+          .bizbox .article-content .block-diagram .details > ul.left-list > li > dl > dd > ul > li ~ li, .bizbox .article-content .block-diagram .details > ul.right-list > li > dl > dd > ul > li ~ li {
+            margin-top: 5px; }
+    .bizbox .article-content .block-diagram .details > ul.right-list {
+      margin-right: 0; }
+      .bizbox .article-content .block-diagram .details > ul.right-list > li > dl > dd {
+        padding: 12px 10px; }
+    .bizbox .article-content .block-diagram .details > ul.center-list {
+      width: 630px; }
+      .bizbox .article-content .block-diagram .details > ul.center-list > li {
+        float: left;
+        width: 200px;
+        margin-right: 15px; }
+        .bizbox .article-content .block-diagram .details > ul.center-list > li > dl dd {
+          padding-left: 15px;
+          height: 192px; }
+        .bizbox .article-content .block-diagram .details > ul.center-list > li:nth-of-type(3n + 1) {
+          clear: left; }
+        .bizbox .article-content .block-diagram .details > ul.center-list > li:nth-of-type(3) ~ li {
+          margin-top: 25px; }
+        .bizbox .article-content .block-diagram .details > ul.center-list > li:nth-of-type(3n + 3) {
+          margin-right: 0; }
+.bizbox .article-content .main-function .details h6 {
+  text-align: center;
+  font-size: 20px;
+  color: #191d1b;
+  font-weight: 500;
+  margin-bottom: 30px; }
+.bizbox .article-content .main-function .details .sub-title ~ .sub-title {
+  margin-top: 50px; }
+.bizbox .article-content .main-function .details .content-area {
+  padding: 30px 10px 10px;
+  background-color: #f0f0f0; }
+.bizbox .article-content .main-function .details .electronic-payment .content-area .process > ul {
+  overflow: hidden; }
+  .bizbox .article-content .main-function .details .electronic-payment .content-area .process > ul > li {
+    float: left;
+    width: 360px;
+    margin-right: 10px; }
+    .bizbox .article-content .main-function .details .electronic-payment .content-area .process > ul > li:last-child {
+      width: 780px;
+      margin-right: 0; }
+    .bizbox .article-content .main-function .details .electronic-payment .content-area .process > ul > li > dl > dt {
+      font-size: 20px;
+      color: #191d1b;
+      padding-bottom: 20px;
+      text-align: center;
+      letter-spacing: -.5px;
+      font-weight: 400; }
+    .bizbox .article-content .main-function .details .electronic-payment .content-area .process > ul > li > dl > dd {
+      padding: 50px 0 40px;
+      background-color: #fff; }
+      .bizbox .article-content .main-function .details .electronic-payment .content-area .process > ul > li > dl > dd figure img {
+        display: block;
+        margin: 0 auto; }
+.bizbox .article-content .main-function .details .electronic-payment .content-area .utilization-plan dl dd > ul > li {
+  height: 256px; }
+.bizbox .article-content .main-function .details .messenger .content-area figure img {
+  display: block;
+  margin: 0 auto; }
+.bizbox .article-content .main-function .details .messenger .content-area > div {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+.bizbox .article-content .main-function .details .messenger .content-area .utilization-plan dl dd > ul > li {
+  height: 231px; }
+.bizbox .article-content .main-function .details .electronic-payment-2 .content-area figure img {
+  display: block;
+  margin: 0 auto; }
+.bizbox .article-content .main-function .details .electronic-payment-2 .content-area > div {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+.bizbox .article-content .main-function .details .electronic-payment-2 .content-area .utilization-plan dl dd {
+  border: 10px solid #e4edf6; }
+  .bizbox .article-content .main-function .details .electronic-payment-2 .content-area .utilization-plan dl dd > ul > li {
+    width: 100%;
+    margin-right: 0; }
+    .bizbox .article-content .main-function .details .electronic-payment-2 .content-area .utilization-plan dl dd > ul > li .decimal-list li:nth-of-type(2), .bizbox .article-content .main-function .details .electronic-payment-2 .content-area .utilization-plan dl dd > ul > li .decimal-list li:nth-of-type(3) {
+      clear: left; }
+    .bizbox .article-content .main-function .details .electronic-payment-2 .content-area .utilization-plan dl dd > ul > li .decimal-list li:nth-of-type(3) ~ li {
+      float: right; }
+.bizbox .article-content .main-function .details .expense-resolution .content-area figure img {
+  display: block;
+  margin: 0 auto; }
+.bizbox .article-content .main-function .details .expense-resolution .content-area > div {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+.bizbox .article-content .main-function .details .expense-resolution .content-area .utilization-plan dl dd > ul > li {
+  height: 200px; }
+.bizbox .article-content .main-function .details .business-card .content-area figure img {
+  display: block;
+  margin: 0 auto; }
+.bizbox .article-content .main-function .details .business-card .content-area > div {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+.bizbox .article-content .main-function .details .business-card .content-area .utilization-plan dl dd > ul > li {
+  height: 144px; }
+.bizbox .article-content .main-function .details .fund-management .content-area figure img {
+  display: block;
+  margin: 0 auto; }
+.bizbox .article-content .main-function .details .fund-management .content-area > div {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+.bizbox .article-content .main-function .details .fund-management .content-area .utilization-plan dl dd > ul > li {
+  height: 200px; }
+.bizbox .article-content .main-function .details .personnel-record .content-area figure img {
+  display: block;
+  margin: 0 auto; }
+.bizbox .article-content .main-function .details .personnel-record .content-area > div {
+  padding: 30px 40px 40px;
+  margin-top: 10px;
+  background-color: #fff; }
+.bizbox .article-content .main-function .details .personnel-record .content-area .utilization-plan dl dd > ul > li {
+  height: 200px; }
+  .bizbox .article-content .main-function .details .personnel-record .content-area .utilization-plan dl dd > ul > li .dashed-list li small {
+    display: block;
+    line-height: 28px;
+    font-size: 13px;
+    color: #999; }
+.bizbox .article-content .main-function .details .mobile-app .mobile-function {
+  padding: 10px;
+  letter-spacing: -.5px;
+  background-color: #f0f0f0; }
+  .bizbox .article-content .main-function .details .mobile-app .mobile-function h6 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    background-color: #4f5963;
+    margin-bottom: 10px; }
+  .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul {
+    overflow: hidden; }
+    .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul > li {
+      float: left;
+      width: 277px;
+      padding: 45px 0 40px;
+      margin-right: 10px;
+      background-color: #fff; }
+      .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul > li figure img {
+        display: block;
+        margin: 0 auto; }
+      .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul > li figure figcaption {
+        font-size: 18px;
+        color: #333;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: -.5px;
+        margin-top: 25px; }
+      .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul > li:nth-of-type(4n + 1) {
+        clear: left; }
+      .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul > li:nth-of-type(4n + 4) {
+        margin-right: 0; }
+      .bizbox .article-content .main-function .details .mobile-app .mobile-function > ul > li:nth-of-type(4n) ~ li {
+        margin-top: 10px; }
+.bizbox .article-content .main-function .details .mobile-app .content-area {
+  padding-top: 0;
+  margin-top: 0; }
+  .bizbox .article-content .main-function .details .mobile-app .content-area figure img {
+    display: block;
+    margin: 0 auto; }
+  .bizbox .article-content .main-function .details .mobile-app .content-area > div {
+    padding: 30px 40px 40px;
+    margin-top: 10px;
+    background-color: #fff; }
+  .bizbox .article-content .main-function .details .mobile-app .content-area .utilization-plan dl dd {
+    border: 10px solid #e4edf6; }
+.bizbox .article-content .main-function .details .etc-function {
+  padding: 10px;
+  background-color: #f0f0f0; }
+  .bizbox .article-content .main-function .details .etc-function > ul {
+    overflow: hidden; }
+    .bizbox .article-content .main-function .details .etc-function > ul > li {
+      float: left;
+      width: 218px;
+      margin-right: 15px; }
+      .bizbox .article-content .main-function .details .etc-function > ul > li dl {
+        text-align: center; }
+        .bizbox .article-content .main-function .details .etc-function > ul > li dl dt {
+          font-size: 18px;
+          color: #fff;
+          line-height: 60px;
+          letter-spacing: -.5px; }
+        .bizbox .article-content .main-function .details .etc-function > ul > li dl dd {
+          height: 222px;
+          font-size: 15px;
+          color: #666;
+          padding: 20px 10px;
+          word-break: keep-all;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: -.5px;
+          margin-top: 10px;
+          background-color: #fff; }
+      .bizbox .article-content .main-function .details .etc-function > ul > li:nth-of-type(1) dl dt {
+        background-color: #30b5e0; }
+      .bizbox .article-content .main-function .details .etc-function > ul > li:nth-of-type(2) dl dt {
+        background-color: #17b0fe; }
+      .bizbox .article-content .main-function .details .etc-function > ul > li:nth-of-type(3) dl dt {
+        background-color: #0083f9; }
+      .bizbox .article-content .main-function .details .etc-function > ul > li:nth-of-type(4) dl dt {
+        background-color: #0c7ac3; }
+      .bizbox .article-content .main-function .details .etc-function > ul > li:last-child {
+        margin-right: 0; }
+        .bizbox .article-content .main-function .details .etc-function > ul > li:last-child dl dt {
+          background-color: #03479c; }
+.bizbox .article-content .construction-case .details > ul {
+  overflow: hidden;
+  padding: 10px;
+  background-color: #f0f0f0; }
+  .bizbox .article-content .construction-case .details > ul > li {
+    float: left;
+    width: 175px;
+    margin-right: 20px; }
+    .bizbox .article-content .construction-case .details > ul > li:last-child {
+      margin-right: 0; }
+    .bizbox .article-content .construction-case .details > ul > li dl dt {
+      font-size: 18px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 60px;
+      text-align: center;
+      background-color: #4f5963; }
+    .bizbox .article-content .construction-case .details > ul > li dl dd {
+      margin-top: 10px; }
+      .bizbox .article-content .construction-case .details > ul > li dl dd > ul > li {
+        display: block; }
+        .bizbox .article-content .construction-case .details > ul > li dl dd > ul > li ~ li {
+          margin-top: 5px; }
+        .bizbox .article-content .construction-case .details > ul > li dl dd > ul > li img {
+          display: block; }
 
 /*# sourceMappingURL=product.css.map */

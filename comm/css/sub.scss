@@ -171,6 +171,21 @@
             }
         }
     }
+    &.type-2 {
+        ul {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            > li {
+                display: table-cell;
+                width: 1%;
+                float: none;
+                &:last-child {
+                    border-right: 1px solid #ddd;
+                }
+            }
+        }
+    }
 }
 
 .section-header {
@@ -416,6 +431,12 @@
             &:before {
                 content: counter(my-list-index);
             }
+        }
+    }
+    &.long {
+        > li {
+            float: none;
+            width: 100%;
         }
     }
 }
